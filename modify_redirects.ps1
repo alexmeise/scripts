@@ -5,7 +5,7 @@ mkdir D:\Data\backups
  Write-Host "Backup folder created"
  Write-Host ""
  }
-   
+# reads alias from csv like: alias,URL 
 Import-CSV  D:\Data\alias.csv -Header alias,destination | Foreach-Object{
     
     #prepare alias destination and folder
