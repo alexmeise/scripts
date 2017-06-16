@@ -1,3 +1,4 @@
+#execute in C:\Windows\System32\inetsrv> as admin
 #Creates backup folder if not present
 if (!(Test-Path D:\Data\backups)){
 mkdir D:\Data\backups
