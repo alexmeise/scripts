@@ -5,7 +5,7 @@
 
         .Author
 
-            Meise - alexander.meise.ext@boehringer-ingelheim.com
+            Meise - mail@alexandermeise.com
 
         .Title
 
