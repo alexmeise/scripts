@@ -12,3 +12,6 @@ Get-Itemproperty * -Name logFile.directory | select-object PSChildName,Value
 #    $logFile="$($Website.logFile.directory)\w3scv$($website.id)".replace("%SystemDrive%",$env:SystemDrive)
 #    Write-host "$($WebSite.name) [$logfile]"
 #    } 
+
+#OTHER FORMAT
+#Get-Website * | % { $_.Name, $_.logFile.Directory}
