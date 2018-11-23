@@ -5,7 +5,7 @@ IIS:
 cd Sites
 Get-Itemproperty * -Name logFile.directory | select-object PSChildName,Value
 
-# UNIFIES LOG LOCATION
+# UNIFIES LOG LOCATION, IF ALREADY STANDARIZED ERROR MSG "ALREADY EXIST" will appear
 
 $LogPath = “D:\DATA\logs\accesslogs”
 foreach($site in (dir iis:\sites\*))
