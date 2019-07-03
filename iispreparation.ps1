@@ -45,7 +45,7 @@ Set-ExecutionPolicy RemoteSigned -Force -ErrorVariable ExecutionError
 
 
 Import-Module WebAdministration -ErrorAction SilentlyContinue -ErrorVariable ImportError
-Copy-Item \\ingvsafas02\dml$\BI-IT-WPS\powershellmodules\NTFSSecurity\ 'C:\Program Files\WindowsPowerShell\Modules\NTFSSecurity\' -recurse -ErrorAction Ignore -ErrorVariable CopyError2
+Copy-Item SOURCE 'C:\Program Files\WindowsPowerShell\Modules\NTFSSecurity\' -recurse -ErrorAction Ignore -ErrorVariable CopyError2
 Import-Module NTFSSecurity 
 
 
